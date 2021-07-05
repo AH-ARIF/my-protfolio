@@ -1,14 +1,31 @@
 body{
-    margin: 0;
+    background-image: url("1122.jpg");
+       
+}
+#welcome{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px black;
+}
+.text-color{
+    color: #E74C3C;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+    color: rgb(36, 0, 0);
+    text-align: justify;
 }
 
-section{
+.section{
     display: flex;
     margin-bottom: 150px;
 }
 .half{
-    width: 50%;
-    padding: 5%;
+    width: 70%;
+    padding: 10%;
 }
 .half img{
     width: 80%;
@@ -16,13 +33,13 @@ section{
 .hire{
     text-decoration: none;
     background-image: linear-gradient(salmon,tomato);
-   padding: 10px 40px;
+   padding: 12px 40px;
    border-radius: 5px;
    color: white;
    font-weight: 700;
 }
 .top-banner{
-    background-image: url(top-banner.png);
+    background-image: url(top-banner.pn);
     background-repeat: no-repeat;
 
 }
@@ -30,4 +47,28 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.shadow{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 10PX;
+    box-shadow: 30px 30px 40px gray;
+}
+#exp-1{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(purple, rgb(185, 31, 4));
+    border-image-slice: 1;
+}
+#exp-2{
+    border-left: 7px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(rgb(2, 8, 66), rgb(0, 187, 194));
+    border-image-slice: 1;
+}
+.bottom-banner{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
 }
